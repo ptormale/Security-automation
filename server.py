@@ -14,5 +14,4 @@ while True:
     print("Connected with ", addr, name)
     c.send(bytes( 'Welcome Home', 'utf-8'))
 
-#Added to GitHub
     c.close()
